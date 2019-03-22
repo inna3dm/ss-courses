@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=width-device width, initial scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt="Inspired by Iceland logo">
+                <nav>
+                    <a href="https://www.inspiredbyiceland.com/things-to-do">Things to do</a>
+                    <a href="https://www.inspiredbyiceland.com/plan-your-trip">Plan your trip</a>
+                    <a href="https://www.inspiredbyiceland.com/about-iceland">About Iceland</a>
+                    <a href="index.html">Home</a>
+                </nav>
+                <a class="search">
+                    <div class="searchfield">
+                        <div class="search-box">
+
+                        </div>
+                    </div>
+                    <div class="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <h1>Task2.Form</h1>
+            <form method="post" action="https://formspree/inna3dm@gmail.com">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label>
+                        Name: <input id="client-name" type="text" placeholder="Name"
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        Email: <input type="email" placeholder="Email" name="client-name" required>
+                    </label>
+                    <br>
+                    <br>
+                    <label>
+                        <input type="radio" name="gender" checked>Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Other
+                    </label>
+                    <br>
+                    <br>
+                    <label for="age">Age</label>
+                    <input id="age" type="number" id="b" value="120">
+                </fieldset>
+
+                <br>
+                <br>
+                <label for="country">Choose your country</label>
+                <select id="country">
+                    <optgroup label="Europe">
+                        <option value="ukraine">Ukraine</option>
+                        <option value="poland">Poland</option>
+                        <option value="germany">Germany</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="japan">Japan</option>
+                    </optgroup>
+                    <optgroup label="North America">
+                        <option value="usa">USA</option>
+                    </optgroup>
+                </select>
+
+                <br>
+                <br>
+                <label for="visited-countries">Number of visited countries</label>
+                <input type="range" id="a" value="154">154
+
+                <br>
+                <br>
+                <label>
+                    Comments:
+                    <br>
+                    <textarea rows="5" cols="60">Write something here
+                    </textarea>
+                </label>
+                <br>
+                <br>
+                <button type="button" onclick="alert('Please, check your email')">Check email</button>
+                <br>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
